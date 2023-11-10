@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, h2, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and text color for the page */
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the main content section */
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style project sections */
+  .project {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+  }
+  
+  /* Style project headings */
+  .project h2 {
+    color: #0074d9;
+  }
+  
+  /* Style links within the project sections */
+  .project a {
+    color: #0074d9;
+    text-decoration: none;
+  }
+  
+  /* Style links within the project sections on hover */
+  .project a:hover {
+    text-decoration: underline;
+  }
